@@ -1,0 +1,13 @@
+Create box_office project using Create React App:
+
+ Open powershell into the desired folder.
+ Type: npx create-react-app box-office --template cra-template-pwa
+
+Create files:
+.prettierrc
+.eslintrc
+
+It will install Developer Dependencies. 
+Install eslint and prettier config files. It turns off all rules that are unnecessary or might conflict with Prettier.
+
+npm install --save-dev eslint-config-prettier eslint-plugin-react eslint-plugin-react-hooks prettier eslint
