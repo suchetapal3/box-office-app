@@ -7,8 +7,9 @@ const MainLayout = () => {
     return (
         <div>
             {/* This is sharred markup */}
-            <Navs />
+
             <AppTitle />
+            <Navs />
             <Outlet />
         </div>
     )
