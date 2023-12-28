@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Starred from "./pages/Starred";
+import Show from './pages/Show';
 import MainLayout from "./components/MainLayout";
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
           <Route path="/starred" element={<Starred />} />
 
         </Route>
+
+        <Route path="/show/:showId" element={<Show />} />
 
         <Route path="*" element={<div>Not found</div>} />
 
@@ -30,7 +33,7 @@ function App() {
         </Route>
         <Route path="contact-us" element={<Contact />} /> */}
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter >
   );
 }
 
